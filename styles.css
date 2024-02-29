@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*Quitar la viñeta de a lista*/
+    text-decoration: none;
+    /*Quitar la decoración de los textos*/
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+
+
+}
+
+header {
+    background-color: #111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.6pc;
+
+}
+
+header img {
+    width: 4pc;
+}
+
+ul {
+    display: flex;
+    gap: 1pc;
+    align-items: center;
+    justify-content: space-between;
+    width: 30pc;
+    flex-direction: row-reverse;
+}
+
+
+.sectionCard {
+    background-color: #111;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.txtInit {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 12%;
+}
+.txtCarta {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sectiongrid {
+    height: 100vh;
+    text-align: center;
+    padding: 3pc 10pc;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+    gap: 2pc;
+}
+
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1pc;
+
+}
+
+.item {
+    width: 20pc;
+    height: 14pc;
+    background-color: #555;
+    border: 1px solid #333;
+    border-radius: 1pc;
+    color: #333;
+    font-size: 2pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item h2{
+    color: #333;
+}
+
+.item:nth-child(1) {
+    
+    background-image: url('https://assets.adidas.com/images/w_600,f_auto,q_auto/a0b9965d8454490688f4ae9b010df356_9366/Guayos_X_Speedportal_Cesped_Natural_Seco_Verde_GW8407_22_model.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item:nth-child(2) {
+    background-image: url('https://prochampions.vtexassets.com/arquivos/ids/727772/Adidas-X-Crazyfast.4-Fxg-Guayos_HQ4535_01.jpg?v=638259317611700000');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item:nth-child(3) {
+    background-image: url('https://deportivoscarvajal.com/cdn/shop/files/Guayos_de_Futbol_Copa_Pure_II.4_Multiterreno_Blanco_GZ2536_01_standard_hover_840x840.jpg?v=1691868699');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item:nth-child(4) {
+    background-image: url('https://assets.adidas.com/images/w_600,f_auto,q_auto/4037e3aa81534124bbbbaf7201050d08_9366/Guayos_X_Speedportal.3_Terreno_Firme_Rosa_GZ5076_22_model.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item:nth-child(5) {
+    background-image: url('https://assets.adidas.com/images/w_600,f_auto,q_auto/73cbaf877bd740708eaf48426dd3b2c2_9366/Guayos_X_Crazyfast.2_Terreno_Firme_Azul_GY7422_22_model.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item:nth-child(6) {
+    background-image: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/feeea0f2bacb4fa58978af4000f59d0b_9366/Guayos_Deportivo_II_Multiterreno_Blanco_HP2508_22_model.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.Messi2 {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3pc;
+}
+
+
+.Messi2 h2 {
+    color: white;
+    font-size: 3pc;
+}
+
+.proyect {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    gap: 2pc;
+}
+
+.proyect div {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.proyect img {
+    width: 50%;
+}
+.sectionBalon{
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.DivSectionBalon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10pc;
+}
+.DivSectionBalon img, .DivSectionBalon div{
+    width: 28%;
+}
+.DivSectionBalon ul{
+    display: flex;
+    flex-direction: column;
+}
+.Balon2 p{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2pc;
+}
+.Balon2 button{
+    background-color: #95cc21;
+    padding: 0.5pc 2pc 0.5pc 2pc;
+    border-radius: 0pc 0pc 3pc 0pc;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1pc;
+    transition: all .3s ease-in-out;
+}
+.Balon2 {
+    flex-direction: column;
+    gap: 2pc;
+    display: flex;  
+    align-items: center;
+}
+.Balon2 button:hover{
+    border-radius: 10px;
+}
+.balon{
+    position: absolute;
+    width: 25pc;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
